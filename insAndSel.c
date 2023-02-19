@@ -52,7 +52,7 @@ int main(){
 		clock_t t;
     	t = clock();
 		insertSort(numberArray,i*100);
-		// selSort(numberArray,i*100);
+		//selSort(numberArray,i*100);
 		t = clock() - t;
     	double time_taken = ((double)t)/CLOCKS_PER_SEC;
     	printf("%f\n",time_taken);
