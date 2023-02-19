@@ -12,7 +12,7 @@ int main(){
 	        exit(1);
 	    }
 	for(int i=0; i<100000 ; i++){
-		int num = rand()%100000;
+		int num = rand();
 		fprintf(f,"%d\n",num);
 	}
 	printf("DONE!!");
